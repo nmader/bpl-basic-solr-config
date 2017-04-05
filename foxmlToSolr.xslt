@@ -112,10 +112,9 @@
   <xsl:include href="/usr/local/fedora/tomcat/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/index/FgsIndex/islandora_transforms/library/traverse-graph.xslt"/>
   
   <!-- Used to index the list of collections to which an object belongs.
-    Requires the "traverse-graph.xslt" bit as well.
+    Requires the "traverse-graph.xslt" bit as well.-->
   <xsl:include href="/usr/local/fedora/tomcat/webapps/fedoragsearch/WEB-INF/classes/fgsconfigFinal/index/FgsIndex/islandora_transforms/hierarchy.xslt"/>
-  -->
-
+  
   <!-- Decide which objects to modify the index of -->
   <xsl:template match="/">
     <update>
